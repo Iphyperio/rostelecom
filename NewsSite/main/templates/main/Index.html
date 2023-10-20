@@ -1,0 +1,29 @@
+<aside>
+    <h1>Боковое меню</h1>
+    <a>Ссылка 1</a>
+    <a>Ссылка 2</a>
+</aside>
+
+
+
+{% include 'sidebar.html' %}
+<h1> HTML-Документ</h1>
+
+
+
+
+
+
+
+{% extends "базовый_шаблон.html" %}
+
+{% block title %}
+Заголовок страницы
+{% endblock %}
+
+{% block content %}
+<h1> Содержимое </h1>
+<p> текст</p>
+{% endblock %}
+
+
